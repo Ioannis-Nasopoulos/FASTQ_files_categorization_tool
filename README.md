@@ -33,10 +33,11 @@ It was taken into account that there is a chance that the directory contiaining 
 For every file in the FASTQ format the algorithm reads those line containing the quality scores, it then transforms every character of these lines in ASCII values and according to the ranges of these values the files are classified as either Phred+33(33-73) or Phred+64(64-104) format and are moved in the subsequent subdirectories. For each file a report is prompted with an message in the screen, about it's classification (Phred+33 or Phred+64), it's encoding method, some characters of the quality line, the RAW ASCII values and whether it was moved to the proper subdirectory, along with any possible errors. 
 
 # Guidelines
-1. Create a copy of a repository from GitHub onto your local machine.
-   git clone https://github.com/Ioannis-Nasopoulos/FASTQ_files_categorization
-   cd fastq-classifier
+1. Create a copy of a repository from GitHub onto your local machine and the change the current directory to the newly cloned repository folder named fastq-classifie
 
+   git clone https://github.com/Ioannis-Nasopoulos/FASTQ_files_classification_tool
+   cd FASTQ_files_classification_tool
+2. 
 
 # Requirements
 
