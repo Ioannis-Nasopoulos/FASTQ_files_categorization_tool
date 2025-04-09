@@ -71,6 +71,7 @@ Please enter the FASTQ files you want to process (space-separated). Press Enter 
 6) Results 
 
 No input provided. Processing all FASTQ files in the directory: /mnt/c/Users/yiann/mock_reads_1.fastq /mnt/c/Users/yiann/mock_reads_10.fastq /mnt/c/Users/yiann/mock_reads_2.fastq /mnt/c/Users/yiann/mock_reads_3.fastq /mnt/c/Users/yiann/mock_reads_4.fastq /mnt/c/Users/yiann/mock_reads_5.fastq /mnt/c/Users/yiann/mock_reads_6.fastq /mnt/c/Users/yiann/mock_reads_7.fastq /mnt/c/Users/yiann/mock_reads_8.fastq /mnt/c/Users/yiann/mock_reads_9.fastq
+
 My quality line is: (+2D1*E"%2$';B'.G+/($)@@I#(D!@@HC+H-4EE!)/&I(A%$?$%;7@="G+C<-DIHF888*E&I5@+
 Raw ASCII values:  40 43 50 68 49 42 69 34 37 50 36 39 59 66 39 46
  71 43 47 40 36 41 64 64 73 35 40 68 33 64 64 72
@@ -79,6 +80,7 @@ Raw ASCII values:  40 43 50 68 49 42 69 34 37 50 36 39 59 66 39 46
  70 56 56 56 42 69 38 73 53 64 43
 The /mnt/c/Users/yiann/mock_reads_1.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: &93%:<%+5#I251F/H5..G$/3/2008C@5.;*$)'.JG?9"G@890%;<;9-;
 Raw ASCII values:  38 57 51 37 58 60 37 43 53 35 73 50 53 49 70 47
  72 53 46 46 71 36 47 51 47 50 48 48 56 67 64 53
@@ -86,6 +88,7 @@ Raw ASCII values:  38 57 51 37 58 60 37 43 53 35 73 50 53 49 70 47
  48 37 59 60 59 57 45 59
 The /mnt/c/Users/yiann/mock_reads_10.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: e\Jh`GULTX^HGGVK`TPWL@gAEd^DEGVf_X[bT`K\CYcH]dU]IdcPQY\DfOM`XPbXW`Z
 Raw ASCII values:  101 92 74 104 96 71 85 76 84 88 94 72 71 71 86 75
  96 84 80 87 76 64 103 65 69 100 94 68 69 71 86 102
@@ -94,6 +97,7 @@ Raw ASCII values:  101 92 74 104 96 71 85 76 84 88 94 72 71 71 86 75
  87 96 90
 The /mnt/c/Users/yiann/mock_reads_2.fastq was coded with Phred+64
 Fastq files were moved to their respective directories
+
 My quality line is: bARhNC\^VXGfefbJa_XcT_GCFb_gW[RLKXTYYWUNCgU[IYLA@CXYTIHIaThDTV^OHEYCZQHLTeeCPIbFFYaaRL_
 Raw ASCII values:  98 65 82 104 78 67 92 94 86 88 71 102 101 102 98 74
  97 95 88 99 84 95 71 67 70 98 95 103 87 91 82 76
@@ -103,6 +107,7 @@ Raw ASCII values:  98 65 82 104 78 67 92 94 86 88 71 102 101 102 98 74
  70 89 97 97 82 76 95
 The /mnt/c/Users/yiann/mock_reads_3.fastq was coded with Phred+64
 Fastq files were moved to their respective directories
+
 My quality line is: BJIF/4/=DH26J5A5"5.)<<45"@8/>3'=E#"AI&D;$,%!I2'EG&'6)50<33ID,@0A1J5D-5)>+2A=G6<?!)3-'<01@5.AI,A='->6B"?.&DB-:I<F!%'9F*IC38$(,G=
 Raw ASCII values:  66 74 73 70 47 52 47 61 68 72 50 54 74 53 65 53
  34 53 46 41 60 60 52 53 34 64 56 47 62 51 39 61
@@ -118,6 +123,7 @@ The /mnt/c/Users/yiann/mock_reads_4.fastq was between 64 and 74 so the quality s
 The /mnt/c/Users/yiann/mock_reads_4.fastq was between 64 and 74 so the quality scoring system used for the coding of quality is uncertain
 The /mnt/c/Users/yiann/mock_reads_4.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: DB2-(-J:"C-+1(?GE:*5=/"=0D)'C%758C-BG-1JJ*($A!E>@3/7!>?"%*AB16'<",0,)J<1F1H;??1C%D:0@98'D;!BB6;'!::8*0F>2B"1-+1%H,=
 Raw ASCII values:  68 66 50 45 40 45 74 58 34 67 45 43 49 40 63 71
  69 58 42 53 61 47 34 61 48 68 41 39 67 37 55 53
@@ -131,6 +137,7 @@ The /mnt/c/Users/yiann/mock_reads_5.fastq was between 64 and 74 so the quality s
 The /mnt/c/Users/yiann/mock_reads_5.fastq was between 64 and 74 so the quality scoring system used for the coding of quality is uncertain
 The /mnt/c/Users/yiann/mock_reads_5.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: 2%5D$7=7B:<$FA75.:-E9"I>6I!6,/.2.5)1:+0?":'-(<%5!/9+GJ/I'(AE'6G1?:$
 Raw ASCII values:  50 37 53 68 36 55 61 55 66 58 60 36 70 65 55 53
  46 58 45 69 57 34 73 62 54 73 33 54 44 47 46 50
@@ -139,6 +146,7 @@ Raw ASCII values:  50 37 53 68 36 55 61 55 66 58 60 36 70 65 55 53
  63 58 36
 The /mnt/c/Users/yiann/mock_reads_6.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: -:3E@29C=C9F,B0/)9=G37<<=<6)4C#E/+H(B">268J;&1B*A&@04#85,$!:D;.?0H:7+:HAA>C+'4D/F%@%,6>%;0*@9"'/-<IA:5I629A',/EG#8?%+
 Raw ASCII values:  45 58 51 69 64 50 57 67 61 67 57 70 44 66 48 47
  41 57 61 71 51 55 60 60 61 60 54 41 52 67 35 69
@@ -150,6 +158,7 @@ Raw ASCII values:  45 58 51 69 64 50 57 67 61 67 57 70 44 66 48 47
  35 56 63 37 43
 The /mnt/c/Users/yiann/mock_reads_7.fastq was coded with Phred+33
 Fastq files were moved to their respective directories
+
 My quality line is: U_AOXGgSDN]`FhMTaDeaIRL]LbCC`bYB]XJJ\WdX@QQB\GRC@CBNC
 Raw ASCII values:  85 95 65 79 88 71 103 83 68 78 93 96 70 104 77 84
  97 68 101 97 73 82 76 93 76 98 67 67 96 98 89 66
@@ -157,6 +166,7 @@ Raw ASCII values:  85 95 65 79 88 71 103 83 68 78 93 96 70 104 77 84
  64 67 66 78 67
 The /mnt/c/Users/yiann/mock_reads_8.fastq was coded with Phred+64
 Fastq files were moved to their respective directories
+
 My quality line is: OOTaKBRPe]HbZCP`hNcfg@eIXX[gd@T\KGGcKXCKehNEYadMUScEgRNeNUF_aD``FMKDHg^P[\LKMNZNbF]YNGaB@BMOfQVTBHLMFZ[[ZJLfNVU
 Raw ASCII values:  79 79 84 97 75 66 82 80 101 93 72 98 90 67 80 96
  104 78 99 102 103 64 101 73 88 88 91 103 100 64 84 92
@@ -168,6 +178,20 @@ Raw ASCII values:  79 79 84 97 75 66 82 80 101 93 72 98 90 67 80 96
 The /mnt/c/Users/yiann/mock_reads_9.fastq was coded with Phred+64
 Fastq files were moved to their respective directories
    
+6) Input of an invalid directory
+   ./FASTQ_files_classification_tool/classify_fastq.sh
+   Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):
+   ./invalid/directory
+  Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory:
+
+ mkdir: cannot create directory ‘phred33’: File exists
+mkdir: cannot create directory ‘phred64’: File exists
+Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):
+
+Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory:
+
+No input provided. Processing all FASTQ files in the directory: ./*.fastq
+Error: File ./*.fastq does not exist. Skipping.
 
 # Requirements
 
