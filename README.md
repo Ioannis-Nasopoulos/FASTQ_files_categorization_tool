@@ -39,7 +39,7 @@ For every file in the FASTQ format the algorithm reads those line containing the
 # Requirements
 
 - A Linux system with a bash environment.
-- FASTQ files in the current directory or specified directory.
+- FASTQ files in the current directory or another specified directory.
 - Every FASTQ file must contain files encoded with only one type of Phred encoding in full FASTQ format (not fragmeneted or partial, especially concerning about the line of quality scores).
 
 # Known Bugs / Errors
