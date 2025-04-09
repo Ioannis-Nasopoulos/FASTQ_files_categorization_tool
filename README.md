@@ -36,7 +36,7 @@ For every file in the FASTQ format the algorithm reads those line containing the
 1. Create a copy of a repository from GitHub onto your local machine and the change the current directory to the newly cloned repository folder named FASTQ_files_classification_tool.
    git clone https://github.com/Ioannis-Nasopoulos/FASTQ_files_classification_tool
    cd FASTQ_files_classification_tool
-   
+
 2. Ensure that the file is executable and make it if it is not.
 Checking if the file is executable is performed with the command ls -l and according to the output (-rwxrwxr-x) or not (-rw-rw-r--), you should change it with the chmod +x classify_fastq.sh command and make it executable at first.
 
@@ -55,7 +55,9 @@ Checking if the file is executable is performed with the command ls -l and accor
 
 # Known Bugs / Errors
 Although the code functions correctly and does not encounter major errors or bugs, it contains some minor issues and warnings that should be addressed to ensure best practices and maintain good conduct in programming.
+
 •	If the directories ‘’phred33’’ and ‘’phred64’’ already exist in your working directory, a warning message is printed in the prompt that the directories already exist in your directory. Nevertheless, the classification of the FASTQ files is executed as commanded.
+
 • If the file contains sequences encoded with both Phred+33 and Phred+64, the programme classifies the file according to the encoding format of the first sequence.
 
 
