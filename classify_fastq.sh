@@ -3,13 +3,23 @@
  mkdir phred33
  mkdir phred64
 
+
+# Prompt the user to input the directory containing FASTQ files
+echo "Please enter the directory containing the FASTQ files (leave blank for the current directory):"
+read input_dir
+
+# Use the current directory if no input is provided
+if [[ -z "$input_dir" ]]; then
+    input_dir="."
+fi
+
 # Prompt the user to input the FASTQ files to process
 echo "Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory:"
 read -a fastq_files # Read user input as an array of filenames
 
 # If no input is provided, set fastq_files to all *.fastq files in the directory
 if [[ ${#fastq_files[@]} -eq 0 ]]; then
-    fastq_files=(*.fastq)
+    fastq_files=("$input_dir"/*.fastq)
     echo "No input provided. Processing all FASTQ files in the directory: ${fastq_files[@]}"
 fi
 
