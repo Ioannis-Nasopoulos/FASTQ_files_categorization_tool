@@ -40,10 +40,11 @@ For every file in the FASTQ format the algorithm reads those line containing the
 2. Ensure that the file is executable and make it if it is not.
 Checking if the file is executable is performed with the command ls -l and according to the output (-rwxrwxr-x) or not (-rw-rw-r--), you should change it with the chmod +x classify_fastq.sh command and make it executable at first.
 
-3.Execute of script
-./classify_fastq.sh
+3. Execute of script
 
-4.A message is prompted asking for the directory containing the FASTQ files "Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):" and immediately another message that asks for the FASTQ fikes of interest "Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory", otherwise it takes all the fastqfiles of the directory.
+   ./classify_fastq.sh
+
+4. A message is prompted asking for the directory containing the FASTQ files "Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):" and immediately another message that asks for the FASTQ fikes of interest "Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory", otherwise it takes all the fastqfiles of the directory.
 
 5. In the folllowing steps, nothing is requested from the user. The programme is executed and it informs the user for the progress and the results of the execution along with possible errors.
 
