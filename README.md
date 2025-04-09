@@ -47,4 +47,4 @@ This project is licensed under the MIT License - see the [Licence](#licence) fil
 # Author  
 - Ioannis-Marios Nasopoulos [Ioannis-Nasopoulos](https://github.com/Ioannis-Nasopoulos)
 
-# Copyright © 2025 Ioannis-Nasopoulos
+Copyright © 2025 Ioannis-Nasopoulos
