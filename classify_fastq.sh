@@ -5,7 +5,7 @@
 
 
 # Prompt the user to input the directory containing FASTQ files
-echo "Please enter the directory containing the FASTQ files (leave blank for the current directory):"
+echo "Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):"
 read input_dir
 
 # Use the current directory if no input is provided
