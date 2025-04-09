@@ -1,9 +1,9 @@
-# FASTQ_files_categorization_tool
+# FASTQ_files_classification_tool
 
 # Table of contents
 - [Description](#description)
 - [Features](#features)
--	[Usage](#usage)
+- [Usage](#usage)
 -	[Guidelines](#Guidelines)
 -	[Requirements](#requirements)
 -	[Known Bugs / Errors](#known-bugs--errors)
@@ -33,11 +33,19 @@ It was taken into account that there is a chance that the directory contiaining 
 For every file in the FASTQ format the algorithm reads those line containing the quality scores, it then transforms every character of these lines in ASCII values and according to the ranges of these values the files are classified as either Phred+33(33-73) or Phred+64(64-104) format and are moved in the subsequent subdirectories. For each file a report is prompted with an message in the screen, about it's classification (Phred+33 or Phred+64), it's encoding method, some characters of the quality line, the RAW ASCII values and whether it was moved to the proper subdirectory, along with any possible errors. 
 
 # Guidelines
-1. Create a copy of a repository from GitHub onto your local machine and the change the current directory to the newly cloned repository folder named fastq-classifie
-
+1. Create a copy of a repository from GitHub onto your local machine and the change the current directory to the newly cloned repository folder named FASTQ_files_classification_tool.
    git clone https://github.com/Ioannis-Nasopoulos/FASTQ_files_classification_tool
    cd FASTQ_files_classification_tool
-2. 
+   
+2. Ensure that the file is executable and make it if it is not.
+Checking if the file is executable is performed with the command ls -l and according to the output (-rwxrwxr-x) or not (-rw-rw-r--), you should change it with the chmod +x classify_fastq.sh command and make it executable at first.
+
+3.Execute of script
+./classify_fastq.sh
+
+4.A message is prompted asking for the directory containing the FASTQ files "Please enter the directory containing the FASTQ files (leave blank/Press Enter for the current directory):" and immediately another message that asks for the FASTQ fikes of interest "Please enter the FASTQ files you want to process (space-separated). Press Enter to process all FASTQ files in the directory", otherwise it takes all the fastqfiles of the directory.
+
+5. In the folllowing steps, nothing is requested from the user. The programme is executed and it informs the user for the progress and the results of the execution along with possible errors.
 
 # Requirements
 
