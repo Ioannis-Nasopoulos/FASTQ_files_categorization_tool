@@ -42,7 +42,7 @@ It was taken into account that there is a chance that not all the FASTQ files ar
 
 # Licence
 
-This project is licensed under the MIT License - see the [Licence](#licence) file for more details.
+This project is licensed under the MIT License - see the [Licence](https://github.com/Ioannis-Nasopoulos/FASTQ_files_categorization_tool/blob/main/LICENCE) file for more details.
 
 # Author  
 - Ioannis-Marios Nasopoulos [Ioannis-Nasopoulos](https://github.com/Ioannis-Nasopoulos)
