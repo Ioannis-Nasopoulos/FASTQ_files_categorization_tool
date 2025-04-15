@@ -12,7 +12,7 @@
 
 # Description
 
-This project constitutes an assignement for the course Population Genomics (Population Genomics - ΕΒΠ09) at Democritus University of Thrace, offered during the spring semester of the Master's Program in Appleid Bioinformatics and data Analysis (https://bioinfo.mbg.duth.gr/).
+This project constitutes an assignement for the course Population Genomics (Population Genomics - ΕΒΠ09) at Democritus University of Thrace, offered during the spring semester of the Master's Program in Applied Bioinformatics and data Analysis (https://bioinfo.mbg.duth.gr/).
 
 # Features
 
